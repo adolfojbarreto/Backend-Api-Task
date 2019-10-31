@@ -10,16 +10,12 @@
 
 ## Quick Start
 
-Add your MONGO_URI to the keys.js file.Add your JsonWebToken Secret to the default.json file.
+Add your MONGO_URI to the keys.js file in config folder.Add your JsonWebToken Secret to the default.json file.
 
 ```bash
 # Install dependencies for server
 npm install
 
-
-
-# Run the client & server with concurrently
-npm run dev
 
 # Run the Express server only
 npm run server
